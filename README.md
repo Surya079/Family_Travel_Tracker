@@ -9,7 +9,7 @@ _This project is used mark a visited countries. it can help us to which countrie
  npm i express ejs body-parser
  
 ```
-_ Once installed all the required packages make sure to check all the packages are successfully installed _
+_Once installed all the required packages make sure to check all the packages are successfully installed_
 
     ```
                 {
@@ -26,9 +26,9 @@ _ Once installed all the required packages make sure to check all the packages a
         "description": "",
         "dependencies": {
 
-           *** "body-parser": "^1.20.2",         
+           ***"body-parser": "^1.20.2",         
             "ejs": "^3.1.10",
-            "express": "^4.19.2" ***
+            "express": "^4.19.2"*** 
         }
         }
     ```
@@ -59,5 +59,5 @@ _ Once installed all the required packages make sure to check all the packages a
        > app.listen(port, (req, res)=>{
        >     console.log(`Server Listening on ${port}`);
        > });
-       
+
     ```
