@@ -6,7 +6,7 @@ _This project is used mark a visited countries. it can help us to which countrie
 
 ```
  npm  init -y  
- npm i express ejs body-parser
+ npm i express ejs body-parser nodemon
  
 ```
 _Once installed all the required packages make sure to check all the packages are successfully installed_
@@ -63,6 +63,9 @@ _Once installed all the required packages make sure to check all the packages ar
        > });
 
     ```
+
+_make sure to don't forget to install `npm i nodemon `. This is one of  package to start our project on local server `https://localhost:3000`._
+
 
 ## Render map
 _we are going to render our map in `index.ejs` file by using a get http request like bellow code:_
