@@ -41,8 +41,10 @@ _Once installed all the required packages make sure to check all the packages ar
     * Queries.sql                  <!-- All the queries for our database  -->
 
 ## Server Setup
-    make sure  to before setup your server need to import all the required module So, Go to the 
-    `package.json` make sure to add given bellow:
+
+    _make sure to before setup your server need to import all the required module So, Go to the 
+    `package.json` make sure to add given bellow:_
+
     
         > type : "module"
 
@@ -61,3 +63,15 @@ _Once installed all the required packages make sure to check all the packages ar
        > });
 
     ```
+
+## Render map
+_we are going to render our map in `index.ejs` file by using a get http request like bellow code:_
+
+```
+    // Home Page
+    app.get('/', (req, res)=>{
+        res.render("index.ejs")
+    });
+
+```
+
