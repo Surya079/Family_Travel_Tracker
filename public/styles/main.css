@@ -1,0 +1,14 @@
+.user-container{
+    padding: 2px;
+    position: fixed;
+    width: 100%;
+}
+.Userinput{
+    width: 60%;
+    padding: 7px;
+    left: 0;
+}
+.btn{
+    margin-top: 5px;
+    padding: 10px;
+}
