@@ -92,3 +92,23 @@ _we are going to render our map in `index.ejs` file by using a get http request 
 
 * _before you install make sure to update your table in pgadmin using given queries in [SQL Queries](https://github.com/Surya079/Family_Travel_Tracker/blob/main/queries.sql)_
 
+* _after You need to install the database in you project using `npm install pg`. Then you havt setup your database in your main server file like using bellow Example_
+ 
+```
+    import pg from 'pg';
+    
+    // Database
+
+    const db = new pg.Client({
+        user : "postgres",
+        host : "localhost",
+        database : "World",
+        password : "Suryavme@005",
+        port : "5432"
+    })
+
+
+    db.connect();
+
+```
+
