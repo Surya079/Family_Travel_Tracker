@@ -67,7 +67,7 @@ _Once installed all the required packages make sure to check all the packages ar
 _make sure to don't forget to install `npm i nodemon `. This is one of  package to start our project on local server `https://localhost:3000`._
 
 
-## Render map
+## Get Map 
 _we are going to render our map in `index.ejs` file by using a get http request like bellow code:_
 
 ```
@@ -75,6 +75,16 @@ _we are going to render our map in `index.ejs` file by using a get http request 
     app.get('/', (req, res)=>{
         res.render("index.ejs")
     });
+
+```
+## Adding static Files
+* _If we adding css or images in our file we can  specify static file like bellow_
+
+* _Even With add the middleware for to getting all the user body request by using code bellow_ 
+
+```
+> app.use(bodyParser.urlencoded({extended : true}));  // Middleware
+> app.use(express.static("public"))   // static Root
 
 ```
 
