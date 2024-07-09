@@ -67,7 +67,7 @@ _Once installed all the required packages make sure to check all the packages ar
 _make sure to don't forget to install `npm i nodemon `. This is one of  package to start our project on local server `https://localhost:3000`._
 
 
-## Get Map 
+## Get `#0969DA` Map 
 _we are going to render our map in `index.ejs` file by using a get http request like bellow code:_
 
 ```
