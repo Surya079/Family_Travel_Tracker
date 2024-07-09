@@ -67,7 +67,7 @@ _Once installed all the required packages make sure to check all the packages ar
 _make sure to don't forget to install `npm i nodemon `. This is one of  package to start our project on local server `https://localhost:3000`._
 
 
-## Get #0969DA Map 
+## Render a  Map using Get Http request 
 _we are going to render our map in `index.ejs` file by using a get http request like bellow code:_
 
 ```
@@ -87,4 +87,8 @@ _we are going to render our map in `index.ejs` file by using a get http request 
 > app.use(express.static("public"))   // static Root
 
 ```
+
+### Install our Database and setup
+
+* _before you install make sure to update your table in pgadmin using given queries in [SQL Queries](https://github.com/Surya079/Family_Travel_Tracker/blob/main/queries.sql)_
 
